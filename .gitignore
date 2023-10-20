@@ -1,4 +1,4 @@
-FactuXD.csproj
+MiLibreria.csproj
 FactuXD.sln
 FactuXD.suo
 .gitattributes
@@ -9,3 +9,4 @@ App.config
 .vs/
 Form1.resx
 Resources/
+MiLibreria.csproj

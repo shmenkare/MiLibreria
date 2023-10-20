@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Data;
 using System.Data.SqlClient;
+using System.Data;
+using System.Text;
 
 namespace MiLibreria
 {
@@ -11,7 +11,7 @@ namespace MiLibreria
         public static DataSet Ejecutar(string sql)
         {
             SqlConnection Con = new SqlConnection("Data Source=.;Initial Catalog=Administracion;Integrated Security=True");
-            
+
             Con.Open();
 
             DataSet Ds = new DataSet();
@@ -23,10 +23,7 @@ namespace MiLibreria
             Con.Close();
 
             return Ds;
-         }
-        
-       
-        
+        }
 
     }
 }
