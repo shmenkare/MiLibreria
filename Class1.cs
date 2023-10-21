@@ -14,15 +14,15 @@ namespace MiLibreria
 
             Con.Open();
 
-            DataSet Ds = new DataSet();
+            DataSet ds = new DataSet();
 
             SqlDataAdapter Da = new SqlDataAdapter(sql, Con);
 
-            Da.Fill(Ds);
+            Da.Fill(ds);
 
             Con.Close();
 
-            return Ds;
+            return ds;
         }
 
     }
